@@ -8,10 +8,15 @@ ativos = [
     {"maquina": "DT-004", "usuario": "pedro", "ano_compra": 2020},
 ]
 
+qtd_trocar = 0
+
 for ativo in ativos:
     idade = ano_atual - ativo["ano_compra"]
     if idade >= 5:
         status = "TROCAR"
+        qtd_trocar += 1   
     else:
         status = "ok"
-    print(f'{ativo["maquina"]} ({ativo["usuario"]}): {idade} anos - {status}')
+    print(f'{ativo["maquina"]} ({ativo["usuario"]}): {idade} anos - {status}')      
+
+print(f"Total para trocar: {qtd_trocar}")   

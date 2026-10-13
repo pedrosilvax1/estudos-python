@@ -5,6 +5,7 @@ ativos = [
     {"maquina": "NB-001", "usuario": "ana", "ano_compra": 2019},
     {"maquina": "NB-002", "usuario": "bruno", "ano_compra": 2023},
     {"maquina": "DT-003", "usuario": "carla", "ano_compra": 2020},
+    {"maquina": "DT-004", "usuario": "pedro", "ano_compra": 2020},
 ]
 
 for ativo in ativos:
